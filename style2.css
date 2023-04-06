@@ -1,0 +1,128 @@
+main h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    padding: 2%;
+    font-size: 30px;
+    margin: 0em;
+}
+.main {
+    display: flex;
+    border-radius: 5%;
+    margin: 0px;
+    margin-bottom: 81px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: min-content;
+    align-items: center;
+}
+
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: -6px 5px 13px 5px;
+    padding: initial;
+    border: initial;
+    width: 21px;
+}
+
+input[type="range" i] {
+    appearance: auto;
+    cursor: default;
+    padding: 13px 29px;
+    margin: 5px;
+    background: linear-gradient(90deg, rgb(255, 85, 0) 25%, #ffeb00 25%, #ffeb00 50.5%, rgb(0, 255, 21) 50.5%);
+    width: 229px;
+    height: 33px;
+}
+.slider_main{
+opacity: 0.5;
+}
+
+
+span h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+.click {
+    justify-content: center;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: cyan;
+    margin: 1em;
+    padding: 1px 6px;
+    border-width: 8px;
+    border-style: outset;
+    border-color: black;
+    width: 271px;
+    height: 58px;
+}
+
+label {
+    cursor: default;
+    display: flexbox;
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 12px;
+
+}
+
+.clipboard {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: white;
+    width: 349%;
+    writing-mode: horizontal-tb !important;
+    margin: 12px -147px;
+    padding: 3px -3px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+.wrapper_main {
+    display: flex;
+    /* background-color: rgb(253, 253, 252); */
+    width: 22%;
+    margin-top: 5%;
+    margin-left: 38%;
+    border-radius: 15px;
+    font-family: Georgia, serif;
+    padding-left: 45px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

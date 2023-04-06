@@ -1,0 +1,390 @@
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: "Ubuntu";
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(266.18deg, #531550 27.86%, #3b9ada 101.55%);
+}
+
+#section-3{
+    height:545px;
+    background: linear-gradient(266.18deg, #531550 27.86%, #3b9ada 101.55%);
+}
+
+header{
+    display: flex;
+    position: fixed;
+}
+img{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding: 0;
+
+}
+.col1{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col2 {
+    margin: 0 auto 0 auto;
+    text-align: center;
+    padding: 0 2% 0 2%;
+}
+
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 2.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: -105px;
+    font-weight: bold;
+    color: rgb(240 255 19);
+    margin-left: 1em;
+}
+
+.mt {
+    color: #09ff69;
+    padding: 0px 529px;
+    font-size: 2rem;
+}
+
+nav{
+    text-decoration: none;
+    position:fixed;
+    width: 457px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(48, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 71%;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    color:#fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top:0;
+    left: 1px;
+    width: 96px;
+    height: 75%;
+    background: linear-gradient(45deg,#ae437c, #1bffff);
+    border-radius: 8px;
+    transition: .2s ease;
+}
+
+nav a:nth-child(1):hover~span {
+    left:0;
+    
+}
+
+nav a:nth-child(2):hover~span {
+    left:87px;
+    width:100px;
+}
+
+nav a:nth-child(3):hover~span {
+    left: 195px;
+    width: 105px
+}
+nav a:nth-child(4):hover~span {
+    left:309px;
+    width:126px;
+}
+
+
+
+.home{
+    display: flex;
+}
+
+.intr{
+    color: #f2ebeb;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 8em;
+    margin-left: 2em;
+    font-size: x-large;
+    font-style: italic;
+    
+}
+
+#strongPassword {
+    padding: 80px 0 150px;
+    color: #fff;
+    display: flex;
+    background: linear-gradient(266.18deg, #2d1553 27.86%, #ab6fd0 101.55%);
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+#strongPassword h2 {
+    margin-bottom: 60px;
+}
+
+#strongPassword .list-icons.list-icons--horizontal {
+    flex-direction: row;
+    display:flex;
+}
+#strongPassword .list-icons.list-icons--horizontal .icon {
+    align-self: center;
+}
+
+#strongPassword .list-icons .icon {
+    width: 50px;
+    height: 71px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.list-icons.list-icons--horizontal.list-icons--large .list-icons__item .icon {
+    margin: -8px 0 .5rem 0;
+    
+}
+#strongPassword .list-icons.list-icons--horizontal .list-icons__content {
+    text-align: center;
+}
+
+
+#strongPassword.justify-content-left .list-icons__content {
+    text-align: left;
+    max-width: 365px;}
+
+    .list-icons.list-icons--horizontal.list-icons--large .list-icons__item {
+        margin: 0 1.25rem 1rem 1.25rem;
+    }
+
+    .list-icons.list-icons--horizontal.list-icons--large .list-icons__item {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+    #strongPassword .list-icons.list-icons--horizontal .icon {
+        align-self: center;
+    }
+    #strongPassword .list-icons .icon-32-password-complex {
+        background-image: url(https://static3.avast.com/1/web/i/v2/aim/img/random-password-generator/Connections.svg);
+    }
+
+    #strongPassword .list-icons .icon {
+        width: 50px;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #strongPassword .list-icons__title {
+        font-size: 22px;
+        margin: .5rem 0 1rem;
+    }
+    #strongPassword .list-icons__text {
+        line-height: 1.7;
+        font-size: 18px;
+    }
+    .list-icons.list-icons--horizontal.list-icons--large .list-icons__item {
+        margin: 0 1.25rem 1rem 1.25rem;
+    }
+    
+    .list-icons.list-icons--horizontal.list-icons--large .list-icons__item {
+        flex-direction: column;
+        align-items: center;
+    }
+    #strongPassword .list-icons .icon-32-password-unique {
+        background-image: url(https://static3.avast.com/1/web/i/v2/aim/img/random-password-generator/Fingerprint.svg);
+    }
+    #strongPassword .list-icons .icon {
+        width: 50px;
+        height: 70px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    #strongPassword .list-icons__text {
+        line-height: 1.7;
+    }
+    
+    #strongPassword .list-icons__text {
+        font-size: 18px;
+    }
+
+    #strongPassword .list-icons .icon-32-password-saved {
+        background-image: url(https://static3.avast.com/1/web/i/v2/aim/img/random-password-generator/Data.svg);
+    }
+
+    .list-icons.list-icons--horizontal {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+
+.contact{background: linear-gradient(266.18deg, #2d1553 27.86%, #ab6fd0 101.55%);}
+.span2{
+    font-size:45px;
+    font-style:bold;
+    color: #27e81d;
+}
+
+.prblm{
+    text-align:center;
+    color: #11ffff;
+}
+.ab{
+        display:flex;
+        flex: wrap;
+        padding: 3px 37px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-content: center;
+        width: 341px;
+    }
+
+.a1F{
+    padding:0px;
+    margin:4px;
+}
+footer {
+    padding: 0.5% 2% 2%;
+    text-align: center;
+    background: linear-gradient(266.18deg, #531550 27.86%, #3b9ada 101.55%);
+}
+
+.footer-icon {
+    border-radius: 5%;
+    height: 216px;
+    width: 225px;
+    margin-right: 0px;
+}
+
+footer h1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-top: 0px;
+    color: #70fffc;
+}
+
+footer p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 0;
+    font-family: "Roboto";
+    color: #70fffc;
+}
+
+.copyright {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 1.1rem;
+    /* margin: 320px -273px; */
+    box-sizing: border-box;
+}
+
+.colfoot-2 {
+    text-align: right;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.social-links {
+    text-decoration: none;
+    color: #f7f3f3;
+    height: 67px;
+    display: inline-flex;
+    width: 34px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 25px;
+    margin: -3px;
+}
+.text-links {
+    padding-top: 2%;
+    text-align: left;
+}
+
+.socials {
+    margin-bottom: 2%;
+}
+
+.socials a,
+.text-links a {
+    width: fit-content;
+    text-decoration: none;
+}
+
+.text-links-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin: -0.5% auto 2.5% auto;
+    padding-right: 0px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 24px;
+    font-size: 1rem;
+}
+
+fa-brands fa-github{background: #3B5998;
+  color: white;
+}
+
+.cv2{
+    flex: 2 0 16.666667%;
+max-width: 16.666667%;
+}
+
+.row{
+    display: flex;
+}
+.colfoot-2 {
+    text-align: right;
+    padding-left: 5%;
+    padding-right: 2%;
+    flex: 0 0 88.333333%;
+    max-width: 345.333333%;
+    box-sizing: border-box
+}
+h1{
+    color: #fdaad4;
+    font-size:33px;
+    padding-top:69px;
+}
+.c2{
+    padding-top: 44px;
+}
+output {
+    display: inline;
+    unicode-bidi: isolate;
+    color:#ebfbee;
+}
