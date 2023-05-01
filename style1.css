@@ -6,18 +6,18 @@ body{
     font-family: "Ubuntu";
     margin: 0;
     padding: 0;
-    background: linear-gradient(266.18deg, #531550 27.86%, #3b9ada 101.55%);
+    background: linear-gradient(266.18deg, #531550 27.86%, #073460bd 101.55%);
 }
 h2 {
     display: flex;
-    font-size: 1.5em;
-    margin-block-start: -0.17em;
+    font-size: 24px;
+    margin-block-start: 6.81px;
     margin-block-end: 2.83em;
     margin-inline-start: 0px;
     margin-inline-end: -105px;
     font-weight: bold;
-    color: rgb(240 255 19);
-    margin-left: 56em;
+    color: #f4c811;
+    margin-left: 60em;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -64,8 +64,8 @@ img{
 nav{
     text-decoration: none;
     position: fixed;
-    width: 437px;
-    height: 50px;
+    width: 515px;
+    height: 55px;
     border-radius: 8px;
     background-color: rgb(48, 66, 66);
     display: flex;
@@ -78,7 +78,7 @@ nav{
 nav a{
     position: relative;
     display: inline-block;
-    font-size: 1em;
+    font-size: 18px;
     color:#fff;
     text-decoration: none;
     padding: 0 23px;
@@ -89,9 +89,9 @@ nav span{
     position: absolute;
     top:0;
     left: 1px;
-    width: 96px;
+    width: 120px;
     height: 75%;
-    background: linear-gradient(45deg,#ae437c, #1bffff);
+    background: linear-gradient(45deg,#11177e, #00b3f4);
     border-radius: 8px;
     transition: .2s ease;
 }
@@ -102,17 +102,17 @@ nav a:nth-child(1):hover~span {
 }
 
 nav a:nth-child(2):hover~span {
-    left:87px;
+    left:115px;
     width:100px;
 }
 
 nav a:nth-child(3):hover~span {
-    left: 195px;
-    width: 105px
+    left: 220px;
+    width: 110px
 }
 nav a:nth-child(4):hover~span {
-    left:309px;
-    width:126px;
+    left:350px;
+    width:162px;
 }
 
 
@@ -244,7 +244,7 @@ nav a:nth-child(4):hover~span {
         text-align: center !important;
     }
 
-.contact{background: linear-gradient(266.18deg, #2d1553 27.86%, #ab6fd0 101.55%);justify-items: center;}
+.contact{background: linear-gradient(266.18deg, #2d1553 27.86%, #91148b 101.55%);justify-items: center;}
 .span2{
     font-size:45px;
     font-style:bold;
@@ -291,7 +291,7 @@ nav a:nth-child(4):hover~span {
 footer {
     padding: 0.5% 2% 2%;
     text-align: center;
-    background: linear-gradient(266.18deg, #531550 27.86%, #3b9ada 101.55%);
+    background: linear-gradient(266.18deg, #531550 27.86%, #1a2843 101.55%);
 }
 
 .footer-icon {
