@@ -1,8 +1,11 @@
-
+html{
+  overflow-x: hidden;
+}
 
 body{
-    height: 100vh;
     width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
     font-family: "Ubuntu";
     margin: 0;
     padding: 0;
